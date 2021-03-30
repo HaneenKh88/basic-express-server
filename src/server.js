@@ -34,7 +34,7 @@ function PersonHandler(req,res)
 {
     const output = {
         
-        Name: req.query.name,
+        name:req.query.name,
       };
       res.json(output);
 }
